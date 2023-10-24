@@ -1,0 +1,5 @@
+/                   /index.html                  200
+/_image             /.netlify/functions/entry    200
+/posts/:slug        /posts/:slug/index.html      200
+/keystatic/*        /.netlify/functions/entry    200
+/api/keystatic/*    /.netlify/functions/entry    200
