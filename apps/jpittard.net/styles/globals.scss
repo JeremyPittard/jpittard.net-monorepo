@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* bits and bobs */
+
+::selection {
+  @apply bg-gondola-100;
+  @apply text-gondola;
+}
+
+.card {
+  transition: all 150ms linear;
+}
+
+.hoverline {
+  will-change: color;
+  transition: all 200ms linear;
+  position: relative;
+  --bgColor: var(--alto);
+  --textColor: var(--gondola);
+
+  &.text-neon-green {
+    --bgColor: var(--neon-green);
+    --textColor: var(--dark-green);
+  }
+
+  &::after {
+    content: "";
+    height: 105%;
+    width: 105%;
+    position: absolute;
+    background-color: var(--bgColor);
+    bottom: -2.5%;
+    left: -2.5%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    z-index: -1;
+    transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.175);
+  }
+  &::before {
+    content: "";
+    height: 2px;
+    width: 105%;
+    position: absolute;
+    background-color: var(--bgColor);
+    bottom: -2.5%;
+    left: -2.5%;
+    transform-origin: bottom;
+    z-index: -1;
+    // transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.175);
+  }
+
+  &:hover {
+    color: var(--textColor);
+    &::after {
+      transform: scaleY(1);
+    }
+  }
+}
