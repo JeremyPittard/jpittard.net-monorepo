@@ -1,6 +1,6 @@
 import * as adapter from '@astrojs/netlify/netlify-functions.js';
 import { renderers } from './renderers.mjs';
-import { manifest } from './manifest_06807558.mjs';
+import { manifest } from './manifest_0b373e7c.mjs';
 import 'react';
 import 'react-dom/server';
 import 'cookie';
@@ -12,7 +12,7 @@ import 'html-escaper';
 import 'mime';
 import 'path-to-regexp';
 
-const _page0  = () => import('./chunks/keystatic-api_d14f4e3e.mjs');
+const _page0  = () => import('./chunks/keystatic-api_b789cb16.mjs');
 const _page1  = () => import('./chunks/keystatic-astro-page_e2944604.mjs');
 const _page2  = () => import('./chunks/generic_779907a5.mjs');
 const _page3  = () => import('./chunks/index_92c39906.mjs');
