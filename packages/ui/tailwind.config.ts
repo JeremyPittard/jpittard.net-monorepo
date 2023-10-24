@@ -1,12 +1,9 @@
-/** @type {import('tailwindcss').Config} */
+/* eslint-disable import/no-default-export -- silly rule*/
+import type { Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
-const { fontFamily } = require("tailwindcss/defaultTheme");
-module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+const config: Config = {
+  content: ["./**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -84,3 +81,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+export default config;

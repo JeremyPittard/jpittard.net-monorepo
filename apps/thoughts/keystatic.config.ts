@@ -8,7 +8,7 @@ export default config({
     posts: collection({
       label: "Posts",
       slugField: "title",
-      path: "src/content/posts/*",
+      path: "./src/content/posts/*",
       format: { contentField: "content" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
@@ -18,7 +18,7 @@ export default config({
           dividers: true,
           links: true,
           images: {
-            directory: "src/assets/images/posts",
+            directory: "./src/assets/images/posts",
             publicPath: "../../assets/images/posts/",
           },
         }),

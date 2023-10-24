@@ -18,8 +18,8 @@ export function Card({
       rel="noopener noreferrer"
       target="_blank"
     >
-      <h2>
-        {title} <span>-&gt;</span>
+      <h2 className="text-sm">
+        {title} a<span>-&gt;</span>
       </h2>
       <p>{children}</p>
     </a>
