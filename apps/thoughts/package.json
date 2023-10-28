@@ -6,13 +6,18 @@
     "@astrojs/markdoc": "^0.6.0",
     "@astrojs/netlify": "^3.0.3",
     "@astrojs/react": "^3.0.3",
+    "@astrojs/tailwind": "^5.0.2",
+    "@fontsource/atkinson-hyperlegible": "^5.0.17",
+    "@fontsource/lexend": "^5.0.17",
     "@keystatic/astro": "^1.0.2",
     "@keystatic/core": "^0.1.7",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
     "astro": "^3.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.5",
+    "ui": "*"
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",

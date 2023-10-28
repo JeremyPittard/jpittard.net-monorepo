@@ -35,7 +35,7 @@ const Hamburger = ({ isOpen = false }) => {
     );
   } else {
     return (
-      <motion.button
+      <motion.div
         initial={{ y: 0, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -61,7 +61,7 @@ const Hamburger = ({ isOpen = false }) => {
             />
           </svg>
         </button>
-      </motion.button>
+      </motion.div>
     );
   }
 };

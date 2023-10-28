@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 
-export default function Custom404() {
+const Custom404 = () => {
   return (
     <Layout>
       <div className="max-w-[80%] lg:max-w-3xl mx-auto mb-24 pb-6">
@@ -8,4 +8,6 @@ export default function Custom404() {
       </div>
     </Layout>
   );
-}
+};
+
+export default Custom404;

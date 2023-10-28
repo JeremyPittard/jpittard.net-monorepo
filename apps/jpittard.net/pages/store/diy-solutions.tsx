@@ -1,5 +1,4 @@
 import Head from "next/head";
-import React, { FormEvent, useState } from "react";
 import Layout from "../../components/Layout";
 
 const DiySolutions = () => {

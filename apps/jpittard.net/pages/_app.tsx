@@ -4,7 +4,7 @@ import { MailgoConfig } from "mailgo";
 import mailgo from "mailgo";
 import { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import Header from "../components/Header";
+import Header from "ui/components/Header";
 import { useRouter } from "next/router";
 import { Atkinson_Hyperlegible, Lexend } from "next/font/google";
 import { PrefersColourSchemeDark } from "../helpers/helpers";
@@ -47,7 +47,7 @@ export default function App({ Component, pageProps }: AppProps) {
         `}
       </style>
 
-      <Header />
+      <Header uiLibrary="next" />
       <AnimatePresence
         mode="wait"
         initial={true}
@@ -57,6 +57,5 @@ export default function App({ Component, pageProps }: AppProps) {
       </AnimatePresence>
       <Footer />
     </>
-    // unsure about footer
   );
 }

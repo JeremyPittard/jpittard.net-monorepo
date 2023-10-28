@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-const store = () => {
+const Store = () => {
   return (
     <Layout>
       <div className="max-w-[80%] md:max-3-4xl mx-auto mb-24">
@@ -12,4 +12,4 @@ const store = () => {
   );
 };
 
-export default store;
+export default Store;
