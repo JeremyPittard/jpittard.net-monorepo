@@ -20,7 +20,9 @@ const posts = await getCollection("posts");
       {
         posts.map((post) => (
           <li>
-            <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+            <a href={`/posts/${post.slug}`} class="hoverline">
+              {post.data.title}
+            </a>
           </li>
         ))
       }
