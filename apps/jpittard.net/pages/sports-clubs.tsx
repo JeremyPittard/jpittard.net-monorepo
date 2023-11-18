@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import React from "react";
 import Layout from "../components/Layout";
@@ -23,7 +24,7 @@ const SportsClubs = () => {
           </p>
           <p>
             Unfortunately, before the committee was formed the platform the
-            websites were to be built on was determined. That’s where this
+            websites were to be built on was determined. That's where this
             WordPress theme comes in. The platform the clubs were put on was
             Squarespace, which has some benefits. However, there are far more
             cost-effective ways to do this where clubs still maintain all the
