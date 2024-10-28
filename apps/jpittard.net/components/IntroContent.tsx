@@ -16,7 +16,6 @@ const IntroContent = () => {
           </span>
           .
         </p>
-        <p className="py-6">more coming soon...</p>
         <p className="py-6">
           <Link
             href={`mailto:jeremy@jpittard.net`}

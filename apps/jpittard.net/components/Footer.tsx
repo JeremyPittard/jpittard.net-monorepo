@@ -4,7 +4,10 @@ import React from "react";
 const theYear = new Date().getFullYear();
 const Footer = () => {
   return (
-    <footer className="max-w-[80%] lg:max-w-3xl mx-auto py-3 px-2 border-t-[1px] border-alto-50 border-opacity-25">
+    <footer className="max-w-[80%] lg:max-w-3xl mx-auto pb-3 px-2 border-t-[1px] border-alto-50 border-opacity-25">
+      <div className="bg-alto-50 text-gondola-500 block text-center -mx-2 text-sm mb-3">
+        New websiste coming soon...
+      </div>
       <nav>
         <ul className="flex gap-4 text-sm items-center justify-start flex-wrap">
           <li>
